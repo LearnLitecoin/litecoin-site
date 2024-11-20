@@ -1,44 +1,88 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="no-js">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Your one-stop guide to understanding Litecoin, how to use it, and where to get involved with the community.">
     <title>Learn Litecoin</title>
     <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/js/modernizr-custom.js"></script>
+    <script src="assets/js/polyfills.js" async defer></script>
 </head>
 <body>
-    <!-- Header -->
-    <header>
-        <img src="assets/images/litecoin-logo.png" alt="Litecoin Logo">
-        <h1>Learn Litecoin</h1>
-        <p>The easiest way to get started with Litecoin</p>
-        <nav>
-            <a href="#">Home</a>
-            <a href="#">Getting Started</a>
-            <a href="#">Resources</a>
-            <a href="#">Community</a>
+    <header id="top">
+        <div class="container">
+            <a href="#top" class="logo">
+                <img src="assets/images/litecoin-logo.png" alt="Litecoin Logo" height="100">
+                <h1>Learn Litecoin</h1>
+            </a>
+            <p>The easiest way to get started with Litecoin</p>
+        </div>
+        <nav class="main-nav">
+            <div class="container">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#getting-started">Getting Started</a></li>
+                    <li><a href="#resources">Resources</a></li>
+                    <li><a href="#community">Community</a></li>
+                </ul>
+            </div>
         </nav>
     </header>
 
-    <!-- Hero Section -->
-    <section class="hero">
-        <h2>Welcome to Learn Litecoin</h2>
-        <p>Explore the world of Litecoin and how it works. Start your journey today!</p>
-        <a href="#">Learn More</a>
-    </section>
+    <main>
+        <section class="hero" id="home">
+            <div class="container">
+                <h2>Welcome to Learn Litecoin</h2>
+                <p>Explore the world of Litecoin and how it works. Start your journey today!</p>
+                <a href="#getting-started" class="cta-button">Learn More</a>
+            </div>
+        </section>
 
-    <!-- Main Content Section -->
-    <section class="section">
-        <h2>What is Litecoin?</h2>
-        <p>
-            Litecoin is a decentralized digital currency, a peer-to-peer internet currency that enables fast, low-cost payments.
-        </p>
-        <a href="#">Read More</a>
-    </section>
+        <article class="section" id="getting-started">
+            <div class="container">
+                <h2>What is Litecoin?</h2>
+                <p>
+                    Litecoin is a decentralized digital currency, a peer-to-peer internet currency that enables fast, low-cost payments. 
+                    It's often considered the silver to Bitcoin's gold.
+                </p>
+                <a href="getting-started.html" class="more-link">Read More</a>
+            </div>
+        </article>
 
-    <!-- Footer -->
+        <article class="section" id="resources">
+            <div class="container">
+                <h2>Resources</h2>
+                <p>
+                    Here you can find guides, wallet recommendations, and other resources to manage and use Litecoin.
+                </p>
+                <a href="resources.html" class="more-link">Find Resources</a>
+            </div>
+        </article>
+
+        <article class="section" id="community">
+            <div class="container">
+                <h2>Community</h2>
+                <p>
+                    Join the Litecoin community, engage in discussions, and stay updated with the latest news.
+                </p>
+                <a href="community.html" class="more-link">Join the Community</a>
+            </div>
+        </article>
+    </main>
+
     <footer>
-        <p>&copy; 2024 Learn Litecoin. All rights reserved.</p>
+        <div class="container">
+            <p>&copy; 2024 Learn Litecoin. All rights reserved.</p>
+            <nav class="footer-nav">
+                <ul>
+                    <li><a href="#top">Back to Top</a></li>
+                    <li><a href="privacy.html">Privacy Policy</a></li>
+                </ul>
+            </nav>
+        </div>
     </footer>
+
+    <script src="assets/js/main.js" async defer></script>
 </body>
 </html>
