@@ -1,18 +1,21 @@
 <!DOCTYPE html>
-<html lang="en" class="no-js">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Your one-stop guide to understanding Litecoin, how to use it, and where to get involved with the community.">
     <title>Learn Litecoin</title>
     <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Include Modernizr at the top for feature detection -->
     <script src="assets/js/modernizr-custom.js"></script>
+    <!-- Polyfills can be deferred as they can be executed after the DOM is loaded -->
     <script src="assets/js/polyfills.js" async defer></script>
+    <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
 </head>
 <body>
     <header id="top">
         <div class="container">
-            <a href="#top" class="logo">
+            <a href="#" class="logo">
                 <img src="assets/images/litecoin-logo.png" alt="Litecoin Logo" height="100">
                 <h1>Learn Litecoin</h1>
             </a>
@@ -21,10 +24,10 @@
         <nav class="main-nav">
             <div class="container">
                 <ul>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#getting-started">Getting Started</a></li>
-                    <li><a href="#resources">Resources</a></li>
-                    <li><a href="#community">Community</a></li>
+                    <li><a href="#home" class="active">Home</a></li>
+                    <li><a href="getting-started.html">Getting Started</a></li>
+                    <li><a href="resources.html">Resources</a></li>
+                    <li><a href="community.html">Community</a></li>
                 </ul>
             </div>
         </nav>
@@ -35,7 +38,7 @@
             <div class="container">
                 <h2>Welcome to Learn Litecoin</h2>
                 <p>Explore the world of Litecoin and how it works. Start your journey today!</p>
-                <a href="#getting-started" class="cta-button">Learn More</a>
+                <a href="getting-started.html" class="cta-button">Learn More</a>
             </div>
         </section>
 
@@ -43,8 +46,7 @@
             <div class="container">
                 <h2>What is Litecoin?</h2>
                 <p>
-                    Litecoin is a decentralized digital currency, a peer-to-peer internet currency that enables fast, low-cost payments. 
-                    It's often considered the silver to Bitcoin's gold.
+                    Litecoin is a decentralized digital currency, often considered the silver to Bitcoin's gold.
                 </p>
                 <a href="getting-started.html" class="more-link">Read More</a>
             </div>
@@ -54,9 +56,9 @@
             <div class="container">
                 <h2>Resources</h2>
                 <p>
-                    Here you can find guides, wallet recommendations, and other resources to manage and use Litecoin.
+                    Find all the tools and information you need to use Litecoin effectively.
                 </p>
-                <a href="resources.html" class="more-link">Find Resources</a>
+                <a href="resources.html" class="more-link">Explore Resources</a>
             </div>
         </article>
 
@@ -64,7 +66,7 @@
             <div class="container">
                 <h2>Community</h2>
                 <p>
-                    Join the Litecoin community, engage in discussions, and stay updated with the latest news.
+                    Connect with other Litecoin enthusiasts for support, news, and networking.
                 </p>
                 <a href="community.html" class="more-link">Join the Community</a>
             </div>
@@ -73,7 +75,7 @@
 
     <footer>
         <div class="container">
-            <p>&copy; 2024 Learn Litecoin. All rights reserved.</p>
+            <p>© 2024 Learn Litecoin. All rights reserved.</p>
             <nav class="footer-nav">
                 <ul>
                     <li><a href="#top">Back to Top</a></li>
@@ -83,6 +85,7 @@
         </div>
     </footer>
 
+    <!-- Include main.js at the bottom of the body for better page load performance -->
     <script src="assets/js/main.js" async defer></script>
 </body>
 </html>
